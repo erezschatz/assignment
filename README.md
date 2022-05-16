@@ -2,6 +2,7 @@
 
 This project assumes you have php and mysql running and configured.
 You will need to create a MySql database and a user with full access and privileges on that database.
+Also download composer using the [following instructions](https://getcomposer.org/download/)
 
 ## How to run application
 
@@ -19,6 +20,6 @@ DB_PASSWORD
 
 Once all is set, run ```php artisan migrate```
 
-if all works without an issue, run ``` php artisan serve ```. The project will run by default on (http://127.0.0.1:8000).
+if all works without an issue, run ``` php artisan serve ```. The project will run by default on http://127.0.0.1:8000.
 
 To run all tests do ```./vendor/bin/phpunit```

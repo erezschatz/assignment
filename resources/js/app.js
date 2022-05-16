@@ -14,7 +14,7 @@ const populateTable = data => {
 		let description = row.insertCell(2);
       	description.innerHTML = item.product_name;
      	let amount = row.insertCell(3);
-     	amount.innerHTML = item.price;
+     	amount.innerHTML = item.price / 100;
      	let currency = row.insertCell(4);
       	currency.innerHTML = item.currency;
     });

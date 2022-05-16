@@ -17,7 +17,7 @@
   </div>
   <div class="mb-3">
     <label for="price" class="form-label">Price</label>
-    <input type="number" class="form-control" id="price">
+    <input type="number" class="form-control" id="price" step="0.01">
  	<div id="priceHelp" class="form-text">The price has to be a valid whole or decimal number</div>
   </div>
   <div class="mb-3">

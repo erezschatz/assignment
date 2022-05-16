@@ -29,6 +29,9 @@ class SalesController extends Controller
     public function store(Request $request)
     {
 		$price = $request->input('price');
+		$price *= 100;
+		$price = intval($price);
+		
 		$currency = $request->input('currency');
 		$productName = $request->input('productname');
 
